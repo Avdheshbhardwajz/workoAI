@@ -103,7 +103,7 @@ export const ReferralList: React.FC = () => {
           <Button
             variant="outlined"
             size="small"
-            href={`http://localhost:5000${referral.resumeUrl}`}
+            href={`https://workoai-2.onrender.com${referral.resumeUrl}`}
             target="_blank"
           >
             View Resume
@@ -158,7 +158,7 @@ export const ReferralList: React.FC = () => {
                   <TableCell>
                     <Button
                       variant="text"
-                      href={`http://localhost:5000${referral.resumeUrl}`}
+                      href={`https://workoai-2.onrender.com${referral.resumeUrl}`}
                       target="_blank"
                     >
                       View Resume
